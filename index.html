@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFB DUAL 導入実績一覧 | 全館浄水システムの最新マンション採用事例</title>
+    <meta name="description" content="全館浄水システム「UFB DUAL」が採用された最新のマンションプロジェクトの導入実績一覧ページです。日本全国の物件での導入事例をご確認いただけます。">
+    
+    <!-- OGP Tags -->
+    <meta property="og:title" content="UFB DUAL 導入実績一覧 | 全館浄水システムの最新マンション採用事例">
+    <meta property="og:description" content="全館浄水システム「UFB DUAL」が採用された最新のマンションプロジェクトの導入実績一覧ページです。日本全国の物件での導入事例をご確認いただけます。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ufbtech-co.jp/mansion/">
+    <meta property="og:image" content="https://ufbtech-co.jp/mansion/images/ufbtech_logo.jpg">
+    <meta property="og:site_name" content="UFB TECH Inc.">
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <link rel="canonical" href="https://ufbtech-co.jp/mansion/">
+    <link rel="stylesheet" href="style.css?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-logo-wrapper">
+                <img src="images/ufbtech_logo.png?v=2" alt="UFB DUAL Logo" class="hero-logo">
+            </div>
+            <h1 class="hero-title">UFB DUAL <span>導入実績</span></h1>
+            <p class="hero-subtitle">「UFB DUAL」が採用された最新のマンションプロジェクト一覧</p>
+        </div>
+        <div class="water-effect"></div>
+    </header>
+
+    <main class="container">
+        <div class="controls">
+            <p class="results-count" id="results-count">全 0 件</p>
+        </div>
+        
+        <div class="property-grid" id="property-grid">
+            <!-- Cards will be dynamically injected here by main.js -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-actions">
+            <a href="https://ufbtech-co.jp/" class="btn-back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                コーポレートサイトへ戻る
+            </a>
+        </div>
+        <div class="footer-logo-wrapper">
+            <img src="images/ufbtech_logo.jpg?v=2" alt="UFB DUAL Company Logo" class="footer-logo">
+        </div>
+        <p>&copy; 2025 UFB TECH Inc. All rights reserved.</p>
+    </footer>
+
+    <!-- Template for a property card -->
+    <template id="property-card-template">
+        <article class="property-card">
+            <div class="card-image-wrapper">
+                <img src="" alt="" class="card-image" loading="lazy">
+                <div class="card-badges">
+                    <span class="badge ufb-badge">UFB DUAL 搭載予定</span>
+                </div>
+                <div class="sample-overlay">
+                    <span>SAMPLE</span>
+                </div>
+            </div>
+            <div class="card-content">
+                <p class="card-company"></p>
+                <h3 class="card-title"></h3>
+                <p class="card-address">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-location"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span></span>
+                </p>
+                <a href="" target="_blank" rel="noopener noreferrer" class="card-link">公式サイトを見る</a>
+            </div>
+        </article>
+    </template>
+
+    <script src="main.js?v=2"></script>
+</body>
+</html>
