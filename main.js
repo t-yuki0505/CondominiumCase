@@ -23,7 +23,7 @@ const properties = [
         company: "株式会社LeTech",
         name: "LEGALAND桜新町ANNEX",
         address: "東京都世田谷区弦巻4-21-21ほか",
-        url: "", // 公式URLが不明な場合は空文字
+        url: "https://legaland.jp/about/lineup/legaland%e6%a1%9c%e6%96%b0%e7%94%ba/",
         image: "images/legaland_sakurashinmachi.jpg",
         isSample: false
     },
