@@ -96,8 +96,8 @@ const properties = [
         name: "アーバネックス谷町四丁目",
         address: "大阪市中央区内本町1丁目2－10",
         url: "https://www.ogfa.co.jp/chintai/property/272844-2",
-        image: "images/osaka_uchihonmachi.jpg",
-        isSample: true // 画像がないためSAMPLE表記
+        image: "images/Urbanex.png",
+        isSample: false
     }
 ];
 
