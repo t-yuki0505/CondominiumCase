@@ -12,12 +12,44 @@
 const properties = [
     {
         company: "株式会社クレアスライフ",
-        name: "コンシェリア東京<br>&lt;HIGASHIJUJO  RESIDENCE&gt;",
+        name: "コンシェリア東京<br>&lt;HIGASHIJUJO RESIDENCE&gt;",
         address: "東京都北区東十条四丁目8番16、18、35（地番）",
         url: "https://www.concieria.tokyo/cc/higashijujo-r",
         image: "images/concieria.jpg",
         isSample: false,
         isInstalled: true
+    },
+    {
+        company: "株式会社LeTech",
+        name: "LEGALAND桜新町ANNEX",
+        address: "東京都世田谷区弦巻4-21-21ほか",
+        url: "", // 公式URLが不明な場合は空文字
+        image: "images/legaland_sakurashinmachi.jpg",
+        isSample: false
+    },
+    {
+        company: "阪急阪神不動産株式会社",
+        name: "ジオエント上新庄",
+        address: "大阪府大阪市東淀川区上新庄２丁目４４１-２（地番）",
+        url: "https://www.hhp.co.jp/news/2024/07/000662.html",
+        image: "images/Geoent Kamishinjo.jpg",
+        isSample: false
+    },
+    {
+        company: "大阪ガス都市開発株式会社",
+        name: "アーバネックス谷町四丁目",
+        address: "大阪市中央区内本町1丁目2－10",
+        url: "https://www.ogfa.co.jp/chintai/property/272844-2",
+        image: "images/Urbanex.png",
+        isSample: false
+    },
+    {
+        company: "株式会社シティインデックス",
+        name: "シティインデックス川越",
+        address: "埼玉県川越市中原町1丁目5番7，23（地番）",
+        url: "https://cityindex.co.jp/cikawagoe/",
+        image: "images/city_index_kawagoe.jpg",
+        isSample: false
     },
     {
         company: "株式会社マリモ",
@@ -44,14 +76,6 @@ const properties = [
         isSample: false
     },
     {
-        company: "株式会社マリモ",
-        name: "グラディス鷹匠タワー",
-        address: "静岡県静岡市葵区鷹匠三丁目1-2（地番）",
-        url: "https://gladis.jp/1029/",
-        image: "images/gladis_takajo.jpg",
-        isSample: false
-    },
-    {
         company: "ケイアイスター不動産",
         name: "K HOUSE 大宮",
         address: "埼玉県さいたま市大宮区仲町三丁目98番（地番）",
@@ -60,11 +84,11 @@ const properties = [
         isSample: false
     },
     {
-        company: "株式会社シティインデックス",
-        name: "シティインデックス川越",
-        address: "埼玉県川越市中原町1丁目5番7，23（地番）",
-        url: "https://cityindex.co.jp/cikawagoe/",
-        image: "images/city_index_kawagoe.jpg",
+        company: "株式会社マリモ",
+        name: "グラディス鷹匠タワー",
+        address: "静岡県静岡市葵区鷹匠三丁目1-2（地番）",
+        url: "https://gladis.jp/1029/",
+        image: "images/gladis_takajo.jpg",
         isSample: false
     },
     {
@@ -73,30 +97,6 @@ const properties = [
         address: "大阪府大阪市",
         url: "", // 公式サイトではないためリンクを削除
         image: "images/art_planning_tenma.jpg",
-        isSample: false
-    },
-    {
-        company: "株式会社LeTech",
-        name: "LEGALAND桜新町ANNEX",
-        address: "東京都世田谷区弦巻4-21-21ほか",
-        url: "", // 公式URLが不明な場合は空文字
-        image: "images/legaland_sakurashinmachi.jpg",
-        isSample: false
-    },
-    {
-        company: "阪急阪神不動産株式会社",
-        name: "ジオエント上新庄",
-        address: "大阪府大阪市東淀川区上新庄２丁目４４１-２（地番）",
-        url: "https://www.hhp.co.jp/news/2024/07/000662.html",
-        image: "images/geo_ent_kamishinjo.jpg", 
-        isSample: true // 画像がないためSAMPLE表記
-    },
-    {
-        company: "大阪ガス都市開発株式会社",
-        name: "アーバネックス谷町四丁目",
-        address: "大阪市中央区内本町1丁目2－10",
-        url: "https://www.ogfa.co.jp/chintai/property/272844-2",
-        image: "images/Urbanex.png",
         isSample: false
     }
 ];
