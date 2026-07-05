@@ -13,7 +13,7 @@ const properties = [
     {
         company: "株式会社クレアスライフ",
         name: "コンシェリア東京<br>&lt;HIGASHIJUJO RESIDENCE&gt;",
-        address: "東京都北区東十条四丁目8番16、18、35（地番）",
+        address: "東京都北区東十条4丁目8番12",
         url: "https://www.concieria.tokyo/cc/higashijujo-r",
         image: "images/concieria.jpg",
         isSample: false,
@@ -22,7 +22,7 @@ const properties = [
     {
         company: "株式会社LeTech",
         name: "LEGALAND桜新町ANNEX",
-        address: "住居表示：東京都世田谷区弦巻4丁目22-13／地番：東京都世田谷区弦巻4-21-21ほか",
+        address: "東京都世田谷区弦巻4丁目22-13",
         url: "https://legaland.jp/about/lineup/legaland%e6%a1%9c%e6%96%b0%e7%94%ba/",
         image: "images/legaland_sakurashinmachi.jpg",
         isSample: false
