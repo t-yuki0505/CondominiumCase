@@ -22,7 +22,7 @@ const properties = [
     {
         company: "株式会社LeTech",
         name: "LEGALAND桜新町ANNEX",
-        address: "東京都世田谷区弦巻4-21-21ほか",
+        address: "住居表示：東京都世田谷区弦巻4丁目22-13／地番：東京都世田谷区弦巻4-21-21ほか",
         url: "https://legaland.jp/about/lineup/legaland%e6%a1%9c%e6%96%b0%e7%94%ba/",
         image: "images/legaland_sakurashinmachi.jpg",
         isSample: false
