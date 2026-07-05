@@ -16,8 +16,7 @@ const properties = [
         address: "東京都北区東十条4丁目8番12",
         url: "https://www.concieria.tokyo/cc/higashijujo-r",
         image: "images/concieria.jpg",
-        isSample: false,
-        isInstalled: true
+        isSample: false
     },
     {
         company: "株式会社LeTech",
@@ -145,11 +144,6 @@ document.addEventListener('DOMContentLoaded', () => {
         clone.querySelector('.card-title').innerHTML = prop.name;
         clone.querySelector('.card-address span').textContent = prop.address;
 
-        const badge = clone.querySelector('.ufb-badge');
-        if (badge) {
-            badge.textContent = prop.isInstalled ? "UFB DUAL 搭載" : "UFB DUAL 搭載予定";
-        }
-        
         // リンク設定
         const link = clone.querySelector('.card-link');
         const urlStr = prop.url ? String(prop.url).trim() : "";
